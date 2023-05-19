@@ -1,0 +1,248 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(238, 11, 11);
+    font-family: 'Pacifico', cursive;
+}
+ .navbar-brand:hover{
+    color: black;
+}
+.nav-item i{
+    margin: 10px;
+    color: rgb(238, 11, 11);
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-item a:hover{
+    color:rgb(238, 11, 11);
+}
+.far,.fab {
+    color:rgb(238, 11, 11);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.main{
+    background: url(./Pictures/heroy.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+ .main p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+ }
+ .main h1{
+    font-size: 5rem;
+    font-weight: 900;
+ }
+.btn2{
+height: 45px;
+width: 40%;
+color: white;
+outline: none;
+border: none;
+background: rgb(238, 11, 11);
+font-weight: bold;
+transition: all 0.4s;
+cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid rgb(238, 11, 11);
+    background: transparent;
+    color:rgb(238, 11, 11);
+    transition: all 0.4s;
+}
+.btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 40%;
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    cursor: pointer;
+}
+.btnc:hover{
+    background: rgb(238, 11, 11);
+    color: white;
+    transition: all 0.4s;
+}
+.zoom-n-rotate{
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.zoom-n-rotate img{
+    transition: transform .5s ease-in-out;  
+
+}
+.zoom-n-rotate:hover img{
+    transform: scale(1.5);
+}
+.product h1{
+font-weight: 800;
+font-size: 2.6rem;
+}
+.product{
+    background: rgb(246, 243, 243);
+}
+.discount{
+    height: 50px;
+    width: 50px;
+    background: rgb(238, 11, 11);
+    border-radius: 50%;
+    padding: 12px 5px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%, -50%)
+}
+.iconic p{
+    text-align: justify;
+    font-family: 'prompt', sans-serif;
+}
+.icon{
+    color:rgb(238, 11, 11);
+    font-size: 2.5rem;
+}
+.news{
+    background: black;
+    font-family: 'prompt', sans-serif;
+}
+.news a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.news a:hover{
+    color: rgb(238, 11, 11);
+    padding-left: 5px;    
+}
+.btns{
+height: 50px;
+width: 30%;
+border: none;
+outline: none;
+background: white;
+color: rgb(238, 11, 11);
+font-weight: bold;
+}
+.sub{
+height: 50px;
+width: 70%;
+background: transparent;
+outline: none;
+border: 1px solid white;
+color: white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(53, 49, 49);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.circle:hover{
+    background: white;
+    color: rgb(53, 49, 49);
+}
+.Copy{
+    color: rgb(53, 49, 49);
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  
+  .mainAbout {
+    width: 40%;
+    margin-right: 2rem;
+  }
+  
+  .mainAbout img {
+    border-radius: 50%;  
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+  
+  .media-body {
+    max-width: 800px;
+  }
+  
+  .media-body h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: rgb(134, 33, 33);
+  }
+  
+  .media-body h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #510404;
+  }
+  
+  .media-body p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .media-body button {
+    display: block;
+    background-color: rgb(134, 33, 33);
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .media-body button:hover {
+    background-color: #555;
+  }
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .btn1 {
+    margin-top: 1rem;
+    font-weight: bold;
+    background: grey;
+  }
+  
+  .btn1:hover {
+    background-color: rgb(162, 10, 10);
+    border-color: rgb(91, 16, 16);
+  }
+  
